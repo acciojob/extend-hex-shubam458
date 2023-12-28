@@ -1,16 +1,15 @@
 const extendHex = (shortHex) => {
   // write your code here
 
- let output = "#";
+  let output = "#";
   let i = 1; // Initialize i to 1 to start from the second character of the string
-  while (i < shortHex.length-1) {
+  while (i <= shortHex.length - 1) { // Change the condition here
     output += shortHex[i] + shortHex[i];
     i++;
   }
   return output;
-	
-	
 };
+	
 
 // Do not change the code below.
 const shortHex = prompt("Enter Short Hex.");
