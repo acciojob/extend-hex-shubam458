@@ -7,11 +7,11 @@ const extendHex = (shortHex) => {
 
 	// first make a index
 
-	let index = shortHex.length-3;
+	let index = shortHex.length-3 , isCapital = false;
 
 	// then make a boolean for check capital or small letter
 
-	let isCapital = false; // first is false
+	 // first is false
 
 	// Also make an output store varibale
 
@@ -20,7 +20,7 @@ const extendHex = (shortHex) => {
 
 	// then start a while loop 
 
-	while (i<shortHex.length) {
+	while (i < shortHex.length) {
 
 
 		// then make a asscii code variable to check assccii value
