@@ -3,7 +3,7 @@ const extendHex = (shortHex) => {
 
  let output = "#";
   let i = 1; // Initialize i to 1 to start from the second character of the string
-  while (i < shortHex.length) {
+  while (i < shortHex.length-1) {
     output += shortHex[i] + shortHex[i];
     i++;
   }
