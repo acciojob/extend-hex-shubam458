@@ -22,7 +22,7 @@ const extendHex = (shortHex) => {
 	}
 
 
-	return isCapital ? output.UpperCase() : output;
+	return isCapital ? output.toUpperCase() : output;
 	
 };
 
