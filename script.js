@@ -24,7 +24,7 @@ const extendHex = (shortHex) => {
 
 	return isCapital ? output.UpperCase() : output;
 	
-	
+};
 
 // Do not change the code below.
 const shortHex = prompt("Enter Short Hex.");
